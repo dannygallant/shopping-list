@@ -1,20 +1,28 @@
 body {	
 	font-family: "Times New Roman", Times, serif;
-	/*background-image: url("../img/grocery-shopping.jpg");*/
+	background-image: url("../img/grocery-background.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
 }
+
+
 .container {
-	width: 650px;
+	/*background-image: url("../img/notepad.png");*/
+	max-width: 500px;
+	max-height: 500px;
 	margin: 0 auto;
 }
 
 .input {
-	width: 500px;
+	max-width: 500px;
 	height: 100px;
 	margin: 0 auto;
 	border-radius: 2px;
 	text-align: center;
+}
+
+input[type="text"] {
+    font-size:45px;
 }
 
 h1 {
@@ -45,7 +53,7 @@ h2 {
 }
 
 #list li {
-	font-size: 24px;
+	font-size: 1rem;
 	font-weight: bold;
 	cursor: pointer;
 }
@@ -55,13 +63,13 @@ span {
 }
 
 
-.Checked {
+/*.checked {
 	height: 18px;
 }
 
-.strike {
+.strikeThrough {
 	text-decoration: line-through;
-}
+}*/
 
 .delete {
 	float: right;
@@ -73,8 +81,4 @@ span {
 
 .footer {
 	background-color: blue;
-}
-
-.left {
-	background-image: url("../img/grocery-shopping.jpg"); 
 }
